@@ -219,6 +219,12 @@ Errors are returned with codes for easier troubleshooting:
 - `UNKNOWN_TOOL`: Requested tool doesn't exist
 - `TOOL_EXECUTION_ERROR`: Error executing a tool
 
+## Copyright
+
+Copyright 2025 Chris Bunting <cbuntingde@gmail.com>
+
+All rights reserved. This project was developed by Chris Bunting.
+
 ## License
 
 MIT
