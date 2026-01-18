@@ -1,0 +1,36 @@
+{
+  "name": "entra-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP Server for Microsoft Entra ID - Query Entra ID data using natural language",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "entra-mcp-server": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js",
+    "watch": "tsc --watch"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "microsoft",
+    "entra",
+    "azure-ad",
+    "graph-api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "@azure/identity": "^4.5.0",
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "isomorphic-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.3"
+  }
+}
